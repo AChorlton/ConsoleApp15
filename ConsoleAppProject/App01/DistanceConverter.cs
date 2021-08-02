@@ -114,9 +114,8 @@ namespace ConsoleAppProject.App01
 
             if (unit == DistanceUnits.NoUnit)
             {
-                Console.WriteLine("\n\nI'm sorry Dave, I'm afraid I can't do that...");
-                Console.WriteLine("You must select a digit between 1 and 3");
-                Console.WriteLine("Daisy... Daisy...\n\n");
+                Console.WriteLine("\n\Please select a unit");
+                Console.WriteLine("You must select a digit between 1 and 3\n\n");
             }
             Console.WriteLine($"\n You have selected: {unit}");
             return unit;
