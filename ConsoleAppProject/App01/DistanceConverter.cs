@@ -160,7 +160,7 @@ namespace ConsoleAppProject.App01
             Console.WriteLine("     Convert units of distance      ");
             Console.ForegroundColor = ConsoleColor.Blue;
             Console.WriteLine("         by Alex Chorlton          ");
-            Console.ForegroundColor = ConsoleColor.White;
+            Console.ForegroundColor = ConsoleColor.Gray;
             Console.WriteLine("-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-");
         }
 
