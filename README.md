@@ -1,8 +1,8 @@
-# C# Console / Web Applications App01 to App05
+# C# Console / Web Applications App01 to App04
 | Author | Details |
 | ---- | ---- |
-**Name**: | Phill Horrocks  |
-**Student ID**: | 22027767 |
+**Name**: | Alex Chorlton |
+**Student ID**: | 22027768 |
 **Course:** | Computing |
 **Module**: | CO453     |
 **Started**: | January 2021 |    
@@ -11,4 +11,3 @@
 2. App02: BMI Calculator
 3. App03: Students Marks
 4. App04: Social Network
-5. App05: R-P-S Game
