@@ -114,7 +114,7 @@ namespace ConsoleAppProject.App01
 
             if (unit == DistanceUnits.NoUnit)
             {
-                Console.WriteLine("\n\Please select a unit");
+                Console.WriteLine("\n\nPlease Try Again");
                 Console.WriteLine("You must select a digit between 1 and 3\n\n");
             }
             Console.WriteLine($"\n You have selected: {unit}");
@@ -160,7 +160,7 @@ namespace ConsoleAppProject.App01
             Console.WriteLine("     Convert units of distance      ");
             Console.ForegroundColor = ConsoleColor.Blue;
             Console.WriteLine("         by Alex Chorlton          ");
-            Console.ForegroundColor = ConsoleColor.Gray;
+            Console.ForegroundColor = ConsoleColor.White;
             Console.WriteLine("-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-");
         }
 

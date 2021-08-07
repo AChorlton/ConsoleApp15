@@ -2,10 +2,6 @@
 using System.Collections.Generic;
 using System.Text;
 
-
-/// <author>
-/// Alexander Chorltopn
-/// </author>
 namespace ConsoleAppProject.App04
 {
     public class Post

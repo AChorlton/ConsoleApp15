@@ -18,9 +18,6 @@ namespace ConsoleAppProject.App03
     /// 4. Output grade profile
     /// 5. Quit
     /// </summary>
-    /// <author>
-    /// Alexander Chorltopn
-    /// </author>
     public class StudentGrades
     {
         // Setup the application constants
@@ -43,15 +40,16 @@ namespace ConsoleAppProject.App03
         // Main constructor
 
         // Populate the Students string with some
-        // sample student names 
+        // sample student names (extra points for knowing
+        // the last 7 names on this list 😁
         public StudentGrades()
         {
             Students = new string[]
             {
-                "Christopher", "Joshua", "Alexander",
-                "Felix", "Gillian", "Philip",
-                "Olivia", "Jennifer", "Daniel",
-                "Amy"
+                "Alex123", "Jane", "Freddie",
+                "Zoltar", "TEST TEST", "Jason",
+                "Tiny", "Prince", "Mark",
+                "Alex"
             };
 
             GradeProfile = new int[(int)Grades.A + 1];
@@ -73,6 +71,7 @@ namespace ConsoleAppProject.App03
         /// </summary>
         public void OutputMarks()
         {
+            //TODO: Tidy up output
             //throw new NotImplementedException();
             //Console.WriteLine("\nStudent Grade Information");
             ConsoleHelper.OutputTitle("\nStudent Grade Information");
@@ -262,6 +261,7 @@ namespace ConsoleAppProject.App03
             }
             else if (choice == 5)
             {
+                // Thanks to https://dotnetcodr.com/2015/10/02/how-to-terminate-a-net-console-application-with-an-exit-code/
                 // for the 'how to exit a console app'
                 Environment.Exit(-1);
             }
@@ -282,6 +282,7 @@ namespace ConsoleAppProject.App03
             // Create a loop to enter the 10 students marks
             for(int i = 0; i < Students.Length; i++)
             {
+                // Thanks StackOverflow for the 'Cast' reminder 😁
                 // Limit the input between min & max marks (0 to 100)
                 Marks[i] = (int)ConsoleHelper.InputNumber
                     ($"\nPlease enter the mark for student #"+(i+1)+$" {Students[i]}: ", 0, 100);

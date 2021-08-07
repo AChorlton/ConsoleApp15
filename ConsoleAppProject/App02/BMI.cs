@@ -10,7 +10,7 @@ namespace ConsoleAppProject.App02
     /// any message of warning to bame groups.
     /// </summary>
     /// <author>
-    /// Alex Chorlton
+    /// Phill Horrocks version 0.8
     /// </author>
     public class BMI
     {

@@ -2,10 +2,8 @@
 
 namespace ConsoleAppProject.App03
 {
-    /// <author>
-    /// Alexander Chorltopn
-    /// </author>
     /// <summary>
+
     /// Grade A is First Class   : 70 - 100
     /// Grade B is Upper Second  : 60 - 69
     /// Grade C is Lower Second  : 50 - 59

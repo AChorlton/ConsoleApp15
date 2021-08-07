@@ -112,7 +112,17 @@ namespace ConsoleAppProject.Helpers
 
         }
 
-        
+        /// <summary>
+        /// Output a short heading in green for the application
+        /// and the name of the author and a prompt to
+        /// inform the use which units are being converted
+        /// Please change the authors name.
+        /// 
+        /// EDIT By Phill Horrocks
+        /// I also included the ability to insert a version number
+        /// into the heading to ensure it is displayed on every
+        /// app using this helper.
+        /// </summary>
         public static void OutputHeading(string heading, double version)
         {
             Console.ForegroundColor = ConsoleColor.Green;
@@ -120,7 +130,7 @@ namespace ConsoleAppProject.Helpers
             Console.WriteLine("\n ---------------------------------------");
             Console.WriteLine($"    {heading}          ");
             Console.WriteLine($"    Version {version}      ");
-            Console.WriteLine("    By Alex Chorlton");
+            Console.WriteLine("    By Phill Horrocks");
             Console.WriteLine(" ---------------------------------------" +
                 "\n");
 

@@ -10,9 +10,6 @@ namespace ConsoleAppProject.App04
     /// within the scope of this app. Loop this menu while
     /// the boolean condition for quitting is false.
     /// </summary>
-    /// <author>
-    /// Alexander Chorlton
-    /// </author>
     public class NetworkApp
     {
         private NewsFeed news = new NewsFeed();

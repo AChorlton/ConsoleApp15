@@ -12,12 +12,15 @@ namespace ConsoleAppProject.App04
     /// This version does not save the data to disk, and it does not provide any
     /// search or ordering functions.
     ///</summary>
-    /// <author>
-    /// Alexander Chorlton
-    /// </author>
+    ///<author>
+    ///  Michael Kölling and David J. Barnes
+    ///  version 0.1
+    ///  Edited by Phill Horrocks
+    ///  Date: 26/03/21
+    ///</author> 
     public class NewsFeed
     {
-        public const string author = "Alex"; // Testing by setting constant variable
+        public const string author = "Phill"; // Testing by setting constant variable
         private readonly List<Post> posts;
 
         ///<summary>

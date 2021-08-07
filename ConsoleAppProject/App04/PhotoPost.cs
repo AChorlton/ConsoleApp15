@@ -10,7 +10,9 @@ namespace ConsoleAppProject.App04
     /// Other data, such as author and time, are also stored.
     ///</summary>
     /// <author>
-    /// Alexander Chorltopn
+    /// Michael Kölling and David J. Barnes
+    /// @version 0.1
+    /// Edited by Phill Horrocks
     /// </author>
     public class PhotoPost : Post
     {
