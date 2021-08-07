@@ -262,7 +262,6 @@ namespace ConsoleAppProject.App03
             }
             else if (choice == 5)
             {
-                // Thanks to https://dotnetcodr.com/2015/10/02/how-to-terminate-a-net-console-application-with-an-exit-code/
                 // for the 'how to exit a console app'
                 Environment.Exit(-1);
             }
@@ -283,7 +282,6 @@ namespace ConsoleAppProject.App03
             // Create a loop to enter the 10 students marks
             for(int i = 0; i < Students.Length; i++)
             {
-                // Thanks StackOverflow for the 'Cast' reminder 😁
                 // Limit the input between min & max marks (0 to 100)
                 Marks[i] = (int)ConsoleHelper.InputNumber
                     ($"\nPlease enter the mark for student #"+(i+1)+$" {Students[i]}: ", 0, 100);
