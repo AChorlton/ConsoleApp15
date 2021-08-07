@@ -43,16 +43,15 @@ namespace ConsoleAppProject.App03
         // Main constructor
 
         // Populate the Students string with some
-        // sample student names (extra points for knowing
-        // the last 7 names on this list 😁
+        // sample student names 
         public StudentGrades()
         {
             Students = new string[]
             {
-                "Rod", "Jane", "Freddie",
-                "Zoltar", "Keyop", "Jason",
-                "Tiny", "Prince", "Mark",
-                "Zark"
+                "Christopher", "Joshua", "Alexander",
+                "Felix", "Gillian", "Philip",
+                "Olivia", "Jennifer", "Daniel",
+                "Amy"
             };
 
             GradeProfile = new int[(int)Grades.A + 1];
@@ -74,7 +73,6 @@ namespace ConsoleAppProject.App03
         /// </summary>
         public void OutputMarks()
         {
-            //TODO: Tidy up output
             //throw new NotImplementedException();
             //Console.WriteLine("\nStudent Grade Information");
             ConsoleHelper.OutputTitle("\nStudent Grade Information");
