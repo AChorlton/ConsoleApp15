@@ -12,9 +12,9 @@ namespace ConsoleAppProject
     /// when the application is started.  It will be used
     /// to start Apps 01 to 04 for CO453 CW1
     /// 
-    /// This Project has been modified by:
-    /// Alexander Chorlton 01/08/21
-    /// </summary>
+    /// <author>
+    /// Alexander Chorlton
+    /// </author>
     public static class Program
     {
         public static void Main(string[] args)

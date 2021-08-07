@@ -4,6 +4,10 @@ using System.Text;
 
 namespace ConsoleAppProject.App02
 {
+    /// <author>
+    /// Alexander Chorlton
+    /// </author>
+
     public enum BMIWeights
     {
         NoWeight,

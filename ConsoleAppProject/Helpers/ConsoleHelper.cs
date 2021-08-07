@@ -11,7 +11,7 @@ namespace ConsoleAppProject.Helpers
     /// There are methods for outputting a main heading
     /// and a title.
     /// <author>
-    /// Derek Peacock 2021
+    /// Alexander Chorlton
     /// </author>
     /// </summary>
     public static class ConsoleHelper
@@ -117,8 +117,6 @@ namespace ConsoleAppProject.Helpers
         /// and the name of the author and a prompt to
         /// inform the use which units are being converted
         /// Please change the authors name.
-        /// 
-        /// EDIT By Phill Horrocks
         /// I also included the ability to insert a version number
         /// into the heading to ensure it is displayed on every
         /// app using this helper.
@@ -130,7 +128,7 @@ namespace ConsoleAppProject.Helpers
             Console.WriteLine("\n ---------------------------------------");
             Console.WriteLine($"    {heading}          ");
             Console.WriteLine($"    Version {version}      ");
-            Console.WriteLine("    By Phill Horrocks");
+            Console.WriteLine("    By Alexander Chorlton");
             Console.WriteLine(" ---------------------------------------" +
                 "\n");
 
