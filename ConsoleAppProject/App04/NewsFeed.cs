@@ -12,15 +12,12 @@ namespace ConsoleAppProject.App04
     /// This version does not save the data to disk, and it does not provide any
     /// search or ordering functions.
     ///</summary>
-    ///<author>
-    ///  Michael Kölling and David J. Barnes
-    ///  version 0.1
-    ///  Edited by Phill Horrocks
-    ///  Date: 26/03/21
-    ///</author> 
+    /// <author>
+    /// Alexander Chorlton
+    /// </author>
     public class NewsFeed
     {
-        public const string author = "Phill"; // Testing by setting constant variable
+        public const string author = "Alexander"; // Testing by setting constant variable
         private readonly List<Post> posts;
 
         ///<summary>
@@ -31,10 +28,10 @@ namespace ConsoleAppProject.App04
             posts = new List<Post>();
 
             // Testing by placing a message post and a photo post
-            //MessagePost post = new MessagePost(author, "Hello world! You are awesome");
+            //MessagePost post = new MessagePost(author, "This is a test message");
             //AddMessagePost(post);
 
-            //PhotoPost photoPost = new PhotoPost(author, "pic1.jpg", "Me and my dogs!");
+            //PhotoPost photoPost = new PhotoPost(author, "testimage1.jpg", "this is a test image");
             //AddPhotoPost(photoPost);
         }
 

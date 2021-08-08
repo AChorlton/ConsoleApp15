@@ -3,6 +3,11 @@ using System.Collections.Generic;
 using System.Text;
 
 namespace ConsoleAppProject.App04
+
+/// <author>
+/// Alexander Chorlton
+/// </author>
+
 {
     public class Post
     {
